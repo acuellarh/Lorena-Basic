@@ -1,0 +1,91 @@
+body{
+ font-family: 'Comfortaa';
+ display: flex;
+ flex-direction: column;
+}
+.header{
+ display: flex;
+ align-items: center;       
+ justify-content: space-between;
+}
+.header a{
+ color:#27cbcd;
+ padding: 0 10px; /* relleno para los espacios entre palabras*/
+}
+main{
+ display: flex;
+ flex-direction: row;
+ flex: auto;
+ margin-top: 1%;
+}
+.main-hero p{
+ line-height: 1.5;
+ letter-spacing: -0.2px;
+ padding: 2% 2%;
+}
+.hero-article{ 
+ overflow-y: auto; 
+}
+.hero-article h1{
+text-align: center;
+}
+.hero-aside{
+ overflow-y: auto; 
+}
+article{
+ flex: 2;
+}
+aside{
+ flex: 1;
+}
+.footer{
+ display: flex;
+ align-items: center;       
+ justify-content: space-between;
+ padding: 3% 3%;
+}
+h1{
+ color: #75619f;
+ font-size: 27px; 
+}
+h2,
+h3{
+ color: #27cbcd;
+}
+h2{
+ font-size: 23px;
+}
+h3{
+ font-size: 20px;
+}
+.hero-article-title2{
+ text-align: center;
+}
+.hero-details2{
+ text-align: center;
+ color: #75619f;
+}
+.heroinput-text{
+ width:360px;
+ height:11px; 
+ padding: 11px 6px;
+ margin: 7px;
+ border-radius: 5px; 
+ border: 2px solid #90c4ba;
+}
+.hero-detailsContact p{
+ padding: 3px 3px;
+ margin: 5px 10px;
+ text-align: center;
+}
+.herobutton{
+ width:380px; 
+ height:40px; 
+ padding: 15px 10px;
+ margin: 2px 10px;
+ background:  #000000; 
+ color: white;
+ line-height: 2px; /* Sirve para centrar una linea de texto unicamente */
+ border-radius: 1px; 
+ border-radius: 5px; 
+}
